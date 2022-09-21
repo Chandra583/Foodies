@@ -34,7 +34,7 @@ ol {
 
 /* Variable Define */
 :root {
-    --primary-color: #8a3535;
+    --primary-color: #773232;
     --secondry-color: #43121d;
     --third-color: #f98169;
     --white-color: #fff;
@@ -53,7 +53,7 @@ body {
     font-family: var(--primary-font);
     font-size: 100%;
     font-weight: 400;
-    /* background-color: #e8f1f3; */
+    background-color: #e8f1f3;
 }
 
 /* " /
@@ -225,11 +225,12 @@ p {
 /* change nababr styling on scroll  */
 .navigation-wrap.scroll-on{
     position: fixed;
+
     top: 0%;
     left: 0%;
     width: 100%;
     background: var(--white-color);
-    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.4 );
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.5 );
     transition: all 0.15s ease-in 0s;
 }
 
