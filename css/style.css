@@ -34,7 +34,7 @@ ol {
 
 /* Variable Define */
 :root {
-    --primary-color: #773232;
+    --primary-color: #ff0808;
     --secondry-color: #43121d;
     --third-color: #f98169;
     --white-color: #fff;
@@ -211,7 +211,7 @@ p {
     font-size: 0.9375rem;
     font-weight: 600;
     text-transform: capitalize;
-    color:var(--primary-color) ;
+    color:var(--secondry-color) ;
     letter-spacing: 1px;
 }
 
@@ -256,4 +256,11 @@ p {
     text-transform: uppercase;
 
 
+}
+.navbar-brand img
+{
+    /* border-radius: 100%; */
+    background-color: #fff;
+    width: 5rem;
+    height: auto;
 }
